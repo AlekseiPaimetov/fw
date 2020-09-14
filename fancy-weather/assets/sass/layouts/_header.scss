@@ -1,0 +1,14 @@
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include media-tablet {
+        display: block;
+        padding-bottom: 0;
+    }
+
+    @include media-mobile {
+    
+    }
+}

@@ -1,0 +1,13 @@
+.menu-settings {
+    display: flex;
+
+    @include media-tablet {
+        width: auto;
+    }
+
+
+}
+
+.menu-bu-right-space {
+    margin-right: $menu-bu-right-space;
+}

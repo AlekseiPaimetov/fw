@@ -1,0 +1,25 @@
+.main {
+
+}
+
+
+.main__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    @include media-big {
+
+    }
+
+    @include media-tablet {
+        display: block;
+    }
+
+    @include media-mobile {
+    
+    }
+
+    
+}
+

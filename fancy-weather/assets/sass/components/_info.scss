@@ -1,0 +1,50 @@
+.info {
+    
+
+    @include media-big {
+        max-width: 500px;
+    }
+    
+    @include media-tablet {
+        max-width: none;
+        width: 100%;
+    }
+
+    @include media-mobile {
+    
+    }
+
+}
+
+.dataInfoTime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include media-mobile {
+        display: block;
+        margin: auto;
+    }
+}
+
+// .fullTime {
+//     @include media-mobile {
+//         width: 100%;
+//         margin: auto;
+//         text-align: center;
+//     }
+// }
+
+// .clock {
+//     @include media-mobile {
+//         width: 100%;
+//         margin: auto;
+//         text-align: center;
+//     }
+// }
+
+.info .panel {
+    @include media-mobile {
+        text-align: center;
+    }
+}

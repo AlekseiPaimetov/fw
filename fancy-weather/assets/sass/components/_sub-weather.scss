@@ -1,0 +1,22 @@
+.minWeatherIco {
+    display: block;
+    position: absolute;
+    margin-top: -122px;
+    margin-left: 70px;
+
+    @include media-big {
+        position: absolute;
+        display: inline-block;
+        margin: 0;
+    }
+
+    @include media-tablet {
+        position: absolute;
+        display: inline-block;
+        margin: 0;
+    }
+}
+
+.subTemp {
+    font-size: 4rem;
+}
